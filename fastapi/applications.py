@@ -49,6 +49,18 @@ AppType = TypeVar("AppType", bound="FastAPI")
 
 
 class FastAPI(Starlette):
+
+
+
+
+
+
+
+
+
+
+
+
     def __init__(
         self: AppType,
         *,
